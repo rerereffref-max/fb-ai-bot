@@ -1,6 +1,6 @@
 from flask import Flask, request
 from config import VERIFY_TOKEN
-from queue import q
+from task_queue import q
 from worker import process_message
 
 app = Flask(_name_)
