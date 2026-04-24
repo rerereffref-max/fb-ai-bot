@@ -1,5 +1,5 @@
 flask
 requests
 python-dotenv
-redis
+redis==4.6.0
 rq
