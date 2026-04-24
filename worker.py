@@ -1,4 +1,4 @@
-from queue import q
+from task_queue import q
 from ai import ask_ai
 from messenger import send_message
 
